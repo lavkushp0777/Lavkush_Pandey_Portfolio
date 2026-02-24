@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lavkush Pandey - Software Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span>Lavkush Pandey</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#internship" class="nav-link">Internship</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="theme-toolbar">
+                <label for="themeSelect" class="theme-label">Theme</label>
+                <select id="themeSelect" class="theme-select" aria-label="Select site theme">
+                    <option value="auto">Auto</option>
+                    <option value="light">Light</option>
+                    <option value="dark">Dark</option>
+                    <option value="aurora">Aurora</option>
+                </select>
+                <button class="settings-toggle" id="settingsToggle" aria-label="Open advanced settings">
+                    <i class="fas fa-sliders-h"></i>
+                </button>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="highlight">Lavkush Pandey</span>
+                    </h1>
+                    <p class="hero-subtitle">Software Engineering Student | IoT, Cybersecurity & Blockchain Enthusiast</p>
+                    <p class="hero-description">
+                        Detail-oriented and motivated Software Engineering student with a strong foundation in web development, 
+                        Java, Python, and emerging technologies. Passionate about building secure and efficient solutions.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                        <button class="btn btn-secondary" id="downloadResume">
+                            <i class="fas fa-download"></i> Download Resume
+                        </button>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/lavkush-pandey-3521451b9/" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/lavkushp0777" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:lavkushp677@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-avatar">
+                        <div class="avatar-placeholder">
+                            <img src="lavkushIMG_20251024_185724-removebg-preview.png" alt="Lavkush Pandey profile photo" class="avatar-photo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a final-year B.E. Computer Science Engineering student specializing in IoT, Cybersecurity & Blockchain 
+                        from Lokmanya Tilak College of Engineering, Mumbai University. Currently enhancing my problem-solving 
+                        skills by learning Data Structures and Algorithms in Java.
+                    </p>
+                    <p>
+                        My journey in technology has been driven by curiosity and a passion for innovation. I've completed 
+                        several research-oriented projects and I'm actively exploring Data Analytics to gain insights into 
+                        data-driven decision making and business intelligence.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>5+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h3>10+</h3>
+                            <p>Certifications</p>
+                        </div>
+                        <div class="stat">
+                            <h3>3+</h3>
+                            <p>Years Learning</p>
+                        </div>
+                        <div class="stat">
+                            <h3>1+</h3>
+                            <p>Internships</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-education">
+                    <h3>Education</h3>
+                    <div class="education-item">
+                        <h4>B.E. (IoT, Cybersecurity & Blockchain)</h4>
+                        <p>Lokmanya Tilak College of Engineering, Mumbai University</p>
+                        <span>2022 - 2026</span>
+                    </div>
+                    <div class="education-item">
+                        <h4>HSC - Science Stream</h4>
+                        <p>Thakur College of Commerce & Science</p>
+                        <span>2020 - 2022</span>
+                    </div>
+                    <div class="education-item">
+                        <h4>SSC</h4>
+                        <p>APHS, Maharashtra State Board</p>
+                        <span>2018 - 2020</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Internship Section -->
+    <section id="internship" class="internship">
+        <div class="container">
+            <h2 class="section-title">Internship</h2>
+            <div class="internship-card">
+                <h3>Cybersecurity Intern | Talakunchi Networks Pvt. Ltd.</h3>
+                <p class="internship-meta">June 2025 - July 2025 | On-site</p>
+                <ul class="internship-points">
+                    <li>Collaborated with a cross-functional cybersecurity team to enhance security practices.</li>
+                    <li>Contributed to developing solutions for threat detection and mitigation.</li>
+                    <li>Performed data extraction and supported threat intelligence analysis.</li>
+                    <li>Assisted in model development for improved cybersecurity monitoring and response.</li>
+                    <li>Delivered valuable contributions as a member of the Squad-I department, supporting overall cybersecurity operations.</li>
+                </ul>
+                <a href="Lavkhush_Talakunchi_Internship_Certificate.pdf" target="_blank" class="btn btn-primary">
+                    <i class="fas fa-eye"></i> View Internship Certificate
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">C Programming</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">SQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-globe"></i> Web Development</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Express.js</span>
+                        <span class="skill-tag">APIs</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Database & Analytics</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">Data Analytics</span>
+                        <span class="skill-tag">Power BI</span>
+                        <span class="skill-tag">Excel</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-cloud"></i> Emerging Technologies</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">Blockchain</span>
+                        <span class="skill-tag">IoT</span>
+                        <span class="skill-tag">Cybersecurity</span>
+                        <span class="skill-tag">Cloud Computing</span>
+                        <span class="skill-tag">Generative AI</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="certifications">
+                <h3>Certifications</h3>
+                <div class="cert-grid-detailed">
+                    <div class="cert-card verified" data-cert="python">
+                        <div class="cert-header">
+                            <h4>Python Programming</h4>
+                            <span class="cert-badge">Verified</span>
+                        </div>
+                        <p class="cert-details">30 hours • TalentBattle</p>
+                        <p class="cert-date">Completed: July 28, 2025</p>
+                        <p class="cert-id">Certificate ID: TB2166</p>
+                        <button class="view-cert-btn" onclick="viewCertificate('python')">
+                            <i class="fas fa-eye"></i> View Certificate
+                        </button>
+                    </div>
+                    
+                    <div class="cert-card verified" data-cert="aws">
+                        <div class="cert-header">
+                            <h4>Cloud Computing Using AWS</h4>
+                            <span class="cert-badge">Verified</span>
+                        </div>
+                        <p class="cert-details">25 hours • TalentBattle</p>
+                        <p class="cert-date">Completed: July 23, 2025</p>
+                        <p class="cert-id">Certificate ID: TB2164</p>
+                        <button class="view-cert-btn" onclick="viewCertificate('aws')">
+                            <i class="fas fa-eye"></i> View Certificate
+                        </button>
+                    </div>
+                    
+                    <div class="cert-card verified" data-cert="java">
+                        <div class="cert-header">
+                            <h4>Java Programming</h4>
+                            <span class="cert-badge">Verified</span>
+                        </div>
+                        <p class="cert-details">30 hours • TalentBattle</p>
+                        <p class="cert-date">Completed: July 22, 2025</p>
+                        <p class="cert-id">Certificate ID: TB2165</p>
+                        <button class="view-cert-btn" onclick="viewCertificate('java')">
+                            <i class="fas fa-eye"></i> View Certificate
+                        </button>
+                    </div>
+                    
+                    <div class="cert-card verified" data-cert="powerbi">
+                        <div class="cert-header">
+                            <h4>Power BI</h4>
+                            <span class="cert-badge">Verified</span>
+                        </div>
+                        <p class="cert-details">15 hours • TalentBattle</p>
+                        <p class="cert-date">Completed: June 13, 2025</p>
+                        <p class="cert-id">Certificate ID: TB2076</p>
+                        <button class="view-cert-btn" onclick="viewCertificate('powerbi')">
+                            <i class="fas fa-eye"></i> View Certificate
+                        </button>
+                    </div>
+
+                    <div class="cert-card verified" data-cert="agile">
+                        <div class="cert-header">
+                            <h4>Agile and Scrum</h4>
+                            <span class="cert-badge">Verified</span>
+                        </div>
+                        <p class="cert-details">Agile Methodology â€¢ Scrum Fundamentals</p>
+                        <p class="cert-date">Completed: 2025</p>
+                        <p class="cert-id">Certificate: Agile & Scrum</p>
+                        <button class="view-cert-btn" onclick="viewCertificate('agile')">
+                            <i class="fas fa-eye"></i> View Certificate
+                        </button>
+                    </div>
+                    
+                    <div class="cert-card">
+                        <div class="cert-header">
+                            <h4>Full Stack Web Development</h4>
+                            <span class="cert-badge pursuing">In Progress</span>
+                        </div>
+                        <p class="cert-details">Self-Learning & Projects</p>
+                    </div>
+                    
+                    <div class="cert-card">
+                        <div class="cert-header">
+                            <h4>PL-900 Microsoft Platform</h4>
+                            <span class="cert-badge pursuing">In Progress</span>
+                        </div>
+                        <p class="cert-details">Microsoft Power Platform</p>
+                    </div>
+                    
+                    <div class="cert-card">
+                        <div class="cert-header">
+                            <h4>Data Analytics</h4>
+                            <span class="cert-badge pursuing">In Progress</span>
+                        </div>
+                        <p class="cert-details">Exploring Data Insights</p>
+                    </div>
+                    
+                    <div class="cert-card">
+                        <div class="cert-header">
+                            <h4>Cyber Security</h4>
+                            <span class="cert-badge pursuing">In Progress</span>
+                        </div>
+                        <p class="cert-details">Network & Application Security</p>
+                    </div>
+                    
+                    <div class="cert-card">
+                        <div class="cert-header">
+                            <h4>Generative AI</h4>
+                            <span class="cert-badge pursuing">In Progress</span>
+                        </div>
+                        <p class="cert-details">AI & Machine Learning</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="project-tools">
+                <input type="text" id="projectSearch" placeholder="Search projects..." aria-label="Search projects">
+                <select id="projectFilter" aria-label="Filter projects by domain">
+                    <option value="all">All Domains</option>
+                    <option value="python">Python</option>
+                    <option value="blockchain">Blockchain</option>
+                    <option value="cloud">Cloud</option>
+                    <option value="web">Web Development</option>
+                    <option value="ai">AI/ML</option>
+                </select>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-tags="python cloud biometric" data-year="2025">
+                    <div class="project-header">
+                        <h3>Cloud-Integrated Encrypted File Vault</h3>
+                        <span class="project-year">2025</span>
+                    </div>
+                    <p>Advanced file security system with Face & Voice Authentication, combining cloud integration with biometric security measures.</p>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>Cloud Computing</span>
+                        <span>Biometric Auth</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-tags="blockchain cybersecurity web3" data-year="2024">
+                    <div class="project-header">
+                        <h3>Decentralized Identity Management System</h3>
+                        <span class="project-year">2024</span>
+                    </div>
+                    <p>Blockchain-based identity management solution ensuring privacy and security in digital identity verification.</p>
+                    <div class="project-tags">
+                        <span>Blockchain</span>
+                        <span>Cybersecurity</span>
+                        <span>Web3</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-tags="blockchain web3 smart contract" data-year="2024">
+                    <div class="project-header">
+                        <h3>Web3-based Crowdfunding Platform</h3>
+                        <span class="project-year">2024</span>
+                    </div>
+                    <p>Decentralized crowdfunding platform built on blockchain technology with smart contract integration.</p>
+                    <div class="project-tags">
+                        <span>Blockchain</span>
+                        <span>Web3</span>
+                        <span>Smart Contracts</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-tags="python ai ml computer vision" data-year="2023">
+                    <div class="project-header">
+                        <h3>Face Recognition Attendance System</h3>
+                        <span class="project-year">2023</span>
+                    </div>
+                    <p>Automated attendance management system using face recognition technology built with Python and computer vision.</p>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>Computer Vision</span>
+                        <span>AI/ML</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-tags="web html css javascript sql" data-year="2023">
+                    <div class="project-header">
+                        <h3>Web Development Mini Projects</h3>
+                        <span class="project-year">2023</span>
+                    </div>
+                    <p>Collection of web applications built using modern web technologies including responsive design and database integration.</p>
+                    <div class="project-tags">
+                        <span>HTML/CSS</span>
+                        <span>JavaScript</span>
+                        <span>SQL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p class="contact-description">
+                        I'm always open to discussing new opportunities, collaborating on interesting projects, 
+                        or just having a chat about technology. Feel free to reach out!
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+91 7208168173</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>lavkushp677@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Thane West, Maharashtra, India</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Lavkush Pandey. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/lavkush-pandey-3521451b9/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/lavkushp0777" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="mailto:lavkushp677@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Certificate Modal -->
+    <div id="certificateModal" class="certificate-modal">
+        <div class="certificate-modal-content">
+            <div class="certificate-modal-header">
+                <h3 id="certificateTitle">Certificate</h3>
+                <div class="modal-actions">
+                    <button id="downloadCertBtn" class="download-cert-btn">
+                        <i class="fas fa-download"></i> Download
+                    </button>
+                    <span class="certificate-modal-close">&times;</span>
+                </div>
+            </div>
+            <div class="certificate-modal-body">
+                <div id="certificateContent" class="certificate-display">
+                    <!-- Certificate content will be inserted here -->
+                </div>
+                <div class="certificate-info">
+                    <p><strong>Note:</strong> This is a digital representation of the actual certificate. The original certificate is issued by TalentBattle.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll-progress" id="scrollProgress"></div>
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <div id="commandPalette" class="command-palette" aria-hidden="true">
+        <div class="command-dialog" role="dialog" aria-modal="true" aria-label="Command palette">
+            <div class="command-input-wrap">
+                <i class="fas fa-search"></i>
+                <input id="commandInput" type="text" placeholder="Type a command... (ex: projects, dark, resume)">
+            </div>
+            <ul id="commandList" class="command-list"></ul>
+        </div>
+    </div>
+
+    <aside class="settings-panel" id="settingsPanel" aria-hidden="true">
+        <h3>Advanced Settings</h3>
+        <div class="settings-group">
+            <label for="themeSelectPanel">Theme Mode</label>
+            <select id="themeSelectPanel" class="theme-select">
+                <option value="auto">Auto</option>
+                <option value="light">Light</option>
+                <option value="dark">Dark</option>
+                <option value="aurora">Aurora</option>
+            </select>
+        </div>
+        <div class="settings-group">
+            <label class="switch-row" for="reducedMotionToggle">
+                <span>Reduced Motion</span>
+                <input type="checkbox" id="reducedMotionToggle">
+            </label>
+        </div>
+        <p class="settings-shortcut">Shortcuts: <kbd>Ctrl</kbd> + <kbd>J</kbd> Settings, <kbd>Ctrl</kbd> + <kbd>K</kbd> Command</p>
+    </aside>
+
+    <script src="script.js"></script>
+</body>
+</html>
